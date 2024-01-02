@@ -96,6 +96,7 @@ def fishing():
                 _, max_val, _, max_loc = cv2.minMaxLoc(res)
                 if(max_val > 0.95 and stop == False):
                     print("[A] Started!")
+                    print("[A] Press 'z' to terminate program.")
                     foundUI = True
                     smallRegion = {"top": monitor['top'] + max_loc[1], "left": monitor['left'] + max_loc[0], "width": 60, "height": 600}
                     
@@ -145,7 +146,8 @@ def fishing():
                 if fishY == -1:
                     if(t):
                         t.join()
-                    print("[A] Restarting...\n")
+                    print("[A] Restarting...")
+                    print("[A] Press 'z' to terminate program.\n\n")
                     fishing = False
                     #hook()
                     
