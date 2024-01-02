@@ -5,6 +5,7 @@ After running the code, activate the window in Stardew Valley. Only works with t
 
 # Requirements
 module : mss, opencv-python, pynput, numpy, threading, time
+
 version : Python 3.8
 
 # Time Interveral
