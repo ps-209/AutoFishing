@@ -1,7 +1,7 @@
 # AutoFishing
 AutoFishing for Stardew Valley
 
-After running the code, activate the window in Stardew Valley. Only works with the currently active window
+After running the code, activate the window in Stardew Valley. Only works with the currently active window not for background
 
 # Requirements
 module : mss, opencv-python, pynput, numpy, threading, time
