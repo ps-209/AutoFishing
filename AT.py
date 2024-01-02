@@ -165,8 +165,6 @@ def fishing():
                 if(fishY < barY):
                     tem = a * ((velocity_0**2) * g + (a - g) * (fishY - bottomBarY) * g + (fish_velocity**2))
                     tem = max(tem,0)
-                    #temp3 = -489.75
-                    #temp3 = a * (a - g) * 10000
                     temp1, temp2, temp3 = tem ** 0.5, velocity_0 * a, -490
                     holdTime1 = -((temp1 + temp2) / temp3 * 2)
                     holdTime2 = (a*dy) + (b*d_velocity) + (c*bar_velocity)
